@@ -42,10 +42,16 @@ h1{
     gap: 10px;
 }
 
+.result{
+  display: block;
+  margin: 10px;
+
+}
+
 .buttons button{
     padding: 12px;
     font-size: 16px;
-    color: white;
+    color:rgb(48, 2, 2);
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -88,7 +94,7 @@ h1{
             <button style="background:blue" onclick="checkColor('blue')">Blue</button>
             <button style="background:yellow" onclick="checkColor('yellow')">Yellow</button>
         </div>
-
+        <span class="result" id="result"></span>
         <p id="score">Score: 0</p>
         <button class="start" onclick="startGame()">Start Game</button>
     </div>

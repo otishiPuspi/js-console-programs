@@ -19,9 +19,11 @@ function checkColor(userColor){
 
     if(userColor === currentColor){
         score++;
-        alert("✅ Correct!");
+        // alert("✅ Correct!");
+    document.getElementById("result").innerHTML = "✅ Correct!";
     } else {
-        alert("❌ Wrong! Game Over\nFinal Score: " + score);
+       // alert("❌ Wrong! Game Over\nFinal  Score:" + score);
+    document.getElementById("result").innerHTML =`❌ Wrong! Game Over\nFinal  Score: ${score}`;
         currentColor = "";
         return;
     }

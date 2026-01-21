@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Grade Calculator</title>
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?size=100&id=GKCbLdI3wPw0&format=png&color=000000">
+
+    <style>
+     body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #f3e5f5, #e1bee7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1{
+    text-align: center;
+    color: #4a148c;
+    background-color: #e1bee7;
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+h3{
+    text-align: center;
+    color: #880e4f;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+
+fieldset{
+    width: 320px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+}
+
+
+lebel{
+    font-weight: bold;
+    color: #4a148c;
+}
+
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input:focus{
+    border-color: #7b1fa2;
+    box-shadow: 0 0 5px #ce93d8;
+}
+
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #7b1fa2;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #4a148c;
+}
+
+    </style>
+
+</head>
+<body>
+
+  <h1>Javascript Student Grade Calculator</h1> 
+  <h3>Open The Console</h3>
+
+  <fieldset>
+  <lebel for="subject-1">English:</lebel>
+  <input type="number", id="subject-1" placeholder="Enter your mark"><br><br>
+
+  <lebel for="subject-2">Physics:</lebel>
+  <input type="number", id="subject-2" placeholder="Enter your mark"><br><br>
+
+  <lebel for="subject-3">Chemistry:</lebel>
+  <input type="number", id="subject-3" placeholder="Enter your mark"><br><br>
+
+  <lebel for="subject-4">Biology:</lebel>
+  <input type="number", id="subject-4" placeholder="Enter your mark"><br><br>
+
+  <lebel for="subject-5">ICT:</lebel>
+  <input type="number", id="subject-5" placeholder="Enter your mark"><br><br>
+
+  <button id="cal">Calculate</button>
+  </fieldset>
+
+  <script src="Program-1.js"></script>
+  
+</body>
+</html>
